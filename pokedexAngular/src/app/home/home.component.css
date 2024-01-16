@@ -7,7 +7,7 @@
   justify-content: space-around;
 }
 input[type="text"] {
-  border: solid 1px #4810b1;
+  border: solid 1px var(--primary-color);
   padding: 10px;
   border-radius: 8px;
   margin-right: 4px;
@@ -16,8 +16,8 @@ input[type="text"] {
 }
 button {
   padding: 10px;
-  border: solid 1px #4810b1;
-  background: #4810b1;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
   color: white;
   border-radius: 8px;
 }
